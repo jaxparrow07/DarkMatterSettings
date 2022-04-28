@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dark Matter Settings</string>
+    
+    <string name="title_activity_settings">Dark Matter Settings</string>
+
+    <string name="display">Display</string>
+    <string name="appearance">Appearance</string>
+
+    <string name="blur_radius_title">Start Menu Blur Radius</string>
+    <string name="blur_radius_summary">Intensity of blur applied to start menu ( radius )</string>
+
+    <string name="blur_alpha_title">Blur Alpha</string>
+    <string name="blur_alpha_summary">Opacity of blur applied to start menu ( alpha )</string>
+
+    <string name="dock_alignment_title">Dock Icons Alignment</string>
+    <string name="dock_alignment_summary">Change how icons are aligned in the dock ( taskbar )</string>
+
+    <string name="ram_usage_title">RAM Usage in Notification Center</string>
+    <string name="ram_usage_summary">Shows RAM usage at the bottom of the Notification Center. ( updates only when you open notification area )</string>
+
+    <string name="traffic_usage_title">Network Transfer in Dock</string>
+    <string name="traffic_usage_summary">Shows current network transfer speed in Dock ( taskbar ).
+
+Clicking the area will show the data usage for current session</string>
+
+
+</resources>

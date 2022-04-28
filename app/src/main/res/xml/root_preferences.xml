@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/appearance">
+
+        <SeekBarPreference
+            app:key="alpha"
+            app:title="@string/blur_alpha_title"
+            app:summary="@string/blur_alpha_summary"
+            app:showSeekBarValue="true"
+            app:defaultValue="@integer/blur_alpha_default"
+            android:max="@integer/blur_alpha_max" />
+
+        <SeekBarPreference
+            app:key="radius"
+            app:title="@string/blur_radius_title"
+            app:summary="@string/blur_radius_summary"
+            app:showSeekBarValue="true"
+            app:defaultValue="@integer/blur_radius_default"
+            android:max="@integer/blur_radius_max"
+            app:allowDividerBelow="true" />
+
+        <ListPreference
+            app:key="dock"
+            app:defaultValue="center"
+            app:entries="@array/align_entries"
+            app:summary="@string/dock_alignment_summary"
+            app:entryValues="@array/align_values"
+            app:title="@string/dock_alignment_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/display">
+
+        <SwitchPreference
+            app:key="ram"
+            app:title="@string/ram_usage_title"
+            app:summary="@string/ram_usage_summary"
+            app:defaultValue="true" />
+
+        <SwitchPreference
+            app:key="data"
+            app:title="@string/traffic_usage_title"
+            app:summary="@string/traffic_usage_summary"
+            app:defaultValue="true" />
+
+
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

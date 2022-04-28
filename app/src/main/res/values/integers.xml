@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="blur_alpha_default">120</integer>
+    <integer name="blur_alpha_max">250</integer>
+
+    <integer name="blur_radius_default">6</integer>
+    <integer name="blur_radius_max">10</integer>
+</resources>
