@@ -9,7 +9,7 @@
     <string name="blur_radius_title">Start Menu Blur Radius</string>
     <string name="blur_radius_summary">Intensity of blur applied to start menu ( radius )</string>
 
-    <string name="blur_alpha_title">Blur Alpha</string>
+    <string name="blur_alpha_title">Start Menu Blur Alpha</string>
     <string name="blur_alpha_summary">Opacity of blur applied to start menu ( alpha )</string>
 
     <string name="dock_alignment_title">Dock Icons Alignment</string>
